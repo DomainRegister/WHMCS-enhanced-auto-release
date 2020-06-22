@@ -14,7 +14,7 @@ try {
         ->where('description', 'like', 'Service ID # %')
         ->select('id','description')
         ->first();
-echo   "<pre>"; print_r($todoitem);      
+      
     
 } catch (\Exception $e) {
     echo "error {$e->getMessage()}";
