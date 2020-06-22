@@ -1,7 +1,7 @@
 # WHMCS-enhanced-auto-release
-This WHMCS hook enriches details about services managed by auto-release module
+This simple WHMCS hook enriches details about services managed by the auto-release module
 
-auto-release is a handy way to manage in WHMCS external services manually, and it's useful for services which have no integration modules available.
+auto-release is a handy way to manage in WHMCS external services manually, and it's useful for services that have no integration modules available.
 
 But if you set to manage them using internal to-do utility, it's annoying because WHMCS will report just the service ID and a short
 description of action required (renew, suspend etc.)
