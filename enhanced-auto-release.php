@@ -38,7 +38,7 @@ try {
     echo $e->getMessage();
 }
 
-$newdescription = 'Service ID #'.$serviceid.' ( '.$servicename->domain.' ) '.$descr3.PHP_EOL.$todoitem->description;
+$newdescription = 'Service ID #'.$serviceid.' ( '.$servicename->domain.' ) '.$descr3.PHP_EOL;
 
 try {
     $update_data =  [
